@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - My Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - My Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>About This Website</h1>
-    </header>
+<header><h1>About This Website</h1></header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<a class="skip-link" href="#main-content">Skip to Main Content</a>
 
-    <main>
-        <h2>About Me</h2>
-        <p>I am currently learning web development and exploring HTML and CSS. This project helps me practice creating multiple web pages and styling them with one shared stylesheet.</p>
-        <p>Using one CSS file makes it easier to keep the design consistent across all pages of a website.</p>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="index.html"><img src="images/home.svg" alt="">Home</a></li>
+<li><a href="about.html"><img src="images/about.svg" alt="">About</a></li>
+<li><a href="contact.html"><img src="images/contact.svg" alt="">Contact</a></li>
+</ul>
+</nav>
 
-        <h2>What I Am Learning</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Web Design</li>
-        </ul>
-    </main>
+<main id="main-content">
+<h2>About Me</h2>
+<p>I am currently learning web development and exploring HTML and CSS. This project helps me practice creating multiple web pages and styling them with one shared stylesheet.</p>
+<p>Using one CSS file makes it easier to keep the design consistent across all pages of a website.</p>
+<h2>What I Am Learning</h2>
+<div class="grid">
+<section><h3>HTML</h3><img src="images/html.svg" alt="HTML code symbol"><p>Building accessible page structure.</p></section>
+<section><h3>CSS</h3><img src="images/css.svg" alt="CSS letters"><p>Creating responsive visual layouts.</p></section>
+</div>
+</main>
 
-    <footer>
-        <p>&copy; 2026 My Web Development Site</p>
-    </footer>
+<footer><p>&copy; 2026 My Web Development Site</p></footer>
 </body>
 </html>

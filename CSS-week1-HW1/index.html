@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - My Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Web Development Site</h1>
-    </header>
+<header><h1>My Web Development Site</h1></header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<a class="skip-link" href="#main-content">Skip to Main Content</a>
 
-    <main>
-        <h2>Welcome</h2>
-        <p>Welcome to my website! This site was created as part of my Introduction to CSS3 homework. I am learning how to use CSS to improve the appearance and layout of web pages.</p>
-        <p>CSS allows us to change colors, fonts, spacing, sizes, and many other visual properties of HTML elements.</p>
-    </main>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="index.html"><img src="images/home.svg" alt="">Home</a></li>
+<li><a href="about.html"><img src="images/about.svg" alt="">About</a></li>
+<li><a href="contact.html"><img src="images/contact.svg" alt="">Contact</a></li>
+</ul>
+</nav>
 
-    <footer>
-        <p>&copy; 2026 My Web Development Site</p>
-    </footer>
+<main id="main-content">
+<h2>Welcome</h2>
+<p>Welcome to my website! This site was created as part of my Introduction to CSS3 homework. I am learning how to use CSS to improve the appearance and layout of web pages.</p>
+<div class="grid">
+<section><h3>HTML</h3><img src="images/html.svg" alt="HTML code symbol"><p>HTML provides the structure of a web page.</p></section>
+<section><h3>CSS</h3><img src="images/css.svg" alt="CSS letters"><p>CSS controls presentation, spacing, and layout.</p></section>
+</div>
+</main>
+
+<footer><p>&copy; 2026 My Web Development Site</p></footer>
 </body>
 </html>
